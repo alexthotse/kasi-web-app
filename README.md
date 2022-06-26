@@ -1,4 +1,7 @@
+
 # Hugo Hero Theme
+
+
 
 Hero is a multi-page business theme with fullscreen hero images and fullwidth sections.
 
@@ -70,36 +73,44 @@ This theme uses [Hugo Pipes](https://gohugo.io/hugo-pipes/scss-sass/) to compile
 
 This will create a fresh Hugo site in the folder `mynewsite`.
 
+---
 ```
 hugo new site mynewsite
 ```
+---
 
 **3. Install the theme**
 
 Download or git clone this theme into the sites themes folder `mynewsite/themes`. You should end up with the following folder structure `mynewsite/themes/hugo-hero-theme`
 
+---
 ```
 cd mynewsite
 git clone https://github.com/zerostaticthemes/hugo-hero-theme.git themes/hugo-hero-theme
 ```
+---
 
 **4. Copy the example content**
 
 Copy the entire contents of the `mynewsite/themes/hugo-hero-theme/exampleSite/` folder to root folder of your Hugo site, ie `mynewsite/`. To copy the files using terminal, make sure you are still in the projects root, ie the `mynewsite` folder.
 
+---
 ```
 cp -a themes/hugo-hero-theme/exampleSite/. .
 ```
+---
 
 **5. Update config.toml**
 
 After you copy the `config.toml` into the root folder of your Hugo site you will need to update the `baseURL`, `themesDir` and `theme` values in `mynewsite/config.toml`
 
+---
 ```
 baseURL = "/"
 themesDir = "themes"
 theme = "hugo-hero-theme"
 ```
+---
 
 **6. Run Hugo**
 
@@ -107,15 +118,19 @@ After installing the theme for the first time, generate the Hugo site.
 
 You run this command from the root folder of your Hugo site ie `mynewsite/`
 
+---
 ```
 hugo
 ```
+---
 
 For local development run Hugo's built-in local server.
 
+---
 ```
 hugo server
 ```
+---
 
 Now enter [`localhost:1313`](http://localhost:1313) in the address bar of your browser.
 
@@ -132,6 +147,7 @@ Use Netlify to deploy this theme. This theme contains a valid and tested `netlif
 
 Often a homepage requires special meta tags such as a meta description or og meta data for twitter, facebook etc. You can configure these values in the `config.toml`
 
+---
 ```
 // config.toml
 ...
@@ -148,11 +164,13 @@ Often a homepage requires special meta tags such as a meta description or og met
     meta_twitter_creator = "@mytwitterhandle"
 
 ```
+---
 
 ### Set meta tags on a per layout basis
 
 You can set meta tags on a per template basis using a block. For example, you might want to write a custom meta description for the `/services` page. You can insert any valid HTML meta data inside the `{{ define "meta_tags }}` block at the top of a template.
 
+---
 ```
 // layouts/services/list.html
 ...
@@ -164,16 +182,19 @@ You can set meta tags on a per template basis using a block. For example, you mi
 {{ define main }}
 ...
 ```
+---
 
 ### Google Analytics
 
 Add your google analytics ID to the `config.toml`
 
+---
 ```
 // config.toml
 [params]
   google_analytics_id="UA-132398315-1"
 ```
+---
 
 ### Menu
 
