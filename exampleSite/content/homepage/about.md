@@ -6,4 +6,4 @@ button: 'About Us'
 buttonLink: 'about'
 ---
 
-Building Kasi empires one brick at a time with the latest cloud technologies.
+Building Kasi empires one brick at a time with the latest innovative Microsoft technologies.

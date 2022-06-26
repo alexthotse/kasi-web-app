@@ -8,4 +8,4 @@ button: 'Contact Us'
 buttonLink: 'contact'
 ---
 
-Theres no limits, Lorem ipsum dolor sit amet, et essent mediocritatem quo, choro volumus oporteat an mei. Numquam dolores mel eu, mea docendi omittantur.
+There are no limits,to what we can become. Slowly collaborating and engaging with mini-tech hubs and innovative companies such as Microsoft, we are truly moving into the 4th industrial revolution with SMME at the center of the movement. hist 3
